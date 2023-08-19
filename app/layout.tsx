@@ -6,24 +6,24 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "Mohammad Shaad",
+		template: "%s | mohammad shaad",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Full Stack Designer & Developer",
 	openGraph: {
-		title: "chronark.com",
+		title: "Mohammad Shaad",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+			"Full Stack Designer & Developer",
+		url: "https://shaad.blog",
+		siteName: "shaad.blog",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://github.com/mohammadshaad/shaad.blog/assets/89409389/14c2ff1a-f8b1-4604-ab92-5e1ebe0ce0ef",
 				width: 1920,
 				height: 1080,
 			},
 		],
-		locale: "en-US",
+		locale: "en-IN",
 		type: "website",
 	},
 	robots: {
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "Mohammad Shaad",
 		card: "summary_large_image",
 	},
 	icons: {
