@@ -48,8 +48,6 @@ Packages are used to organize Go code into reusable units. Let's explore how to 
 Creating Packages
 Packages in Go are created by organizing related Go files in the same directory and giving that directory a name. For example, you can create a package named mathutil:
 
-plaintext
-
 mathutil/
     add.go
     subtract.go
@@ -58,18 +56,17 @@ subtract.go could contain a subtract function, for instance.
 Importing Packages
 To use functions from another package, you need to import it:
 
-go
-
+```go
 import "mathutil"
 
 func main() {
     result := mathutil.Add(10, 5)
     fmt.Println("Result:", result)
 }
+```
+
 Building Modular Go Projects
 Effective project organization is key to maintainable code. In Go, you can structure your projects like this:
-
-plaintext
 
 myproject/
     main.go
