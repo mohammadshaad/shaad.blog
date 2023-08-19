@@ -82,11 +82,14 @@ devDependencies:
     specifier: ^0.5.9
     version: 0.5.9(tailwindcss@3.3.2)
   autoprefixer:
-    specifier: ^10.4.13
+    specifier: ^10.4.14
     version: 10.4.14(postcss@8.4.23)
   postcss:
     specifier: ^8.4.21
     version: 8.4.23
+  postcss-import:
+    specifier: ^15.1.0
+    version: 15.1.0(postcss@8.4.23)
   postcss-nesting:
     specifier: ^11.2.2
     version: 11.2.2(postcss@8.4.23)
@@ -94,7 +97,7 @@ devDependencies:
     specifier: ^11.0.0
     version: 11.0.0
   tailwindcss:
-    specifier: ^3.2.7
+    specifier: ^3.3.2
     version: 3.3.2
   tailwindcss-debug-screens:
     specifier: ^2.2.1
