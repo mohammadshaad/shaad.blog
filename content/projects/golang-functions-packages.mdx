@@ -34,11 +34,12 @@ In this example, we've defined a function named sayHello, which prints a message
 Function Parameters and Return Values
 Functions can take parameters and return values:
 
-go
-Copy code
+```go
 func add(a, b int) int {
     return a + b
 }
+```
+
 In this add function, it takes two integer parameters a and b and returns their sum as an integer.
 
 Organizing Code with Packages
@@ -48,7 +49,7 @@ Creating Packages
 Packages in Go are created by organizing related Go files in the same directory and giving that directory a name. For example, you can create a package named mathutil:
 
 plaintext
-Copy code
+
 mathutil/
     add.go
     subtract.go
@@ -58,7 +59,7 @@ Importing Packages
 To use functions from another package, you need to import it:
 
 go
-Copy code
+
 import "mathutil"
 
 func main() {
@@ -69,7 +70,7 @@ Building Modular Go Projects
 Effective project organization is key to maintainable code. In Go, you can structure your projects like this:
 
 plaintext
-Copy code
+
 myproject/
     main.go
     mathutil/
