@@ -42,7 +42,7 @@ import (
 
 func main() {
     http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-        fmt.Fprintf(w, "Welcome to My API!")
+        fmt.Fprintf(w, "Welcome to My Golang API!")
     })
 
     http.ListenAndServe(":8080", nil)
